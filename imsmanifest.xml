@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="com.example.encuesta" version="1.2" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p2p1">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <title>Encuesta</title>
+  </metadata>
+  <organizations default="org1">
+    <organization identifier="org1" structure="hierarchical">
+      <title>Encuesta</title>
+      <item identifier="item1" identifierref="home">
+        <title>Página de Inicio</title>
+      </item>
+      <item identifier="item2" identifierref="video">
+        <title>Vídeo</title>
+      </item>
+      <item identifier="item3" identifierref="index">
+        <title>Índice</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="home" type="webcontent" href="./pages/home.html"/>
+    <resource identifier="video" type="webcontent" href="./pages/video.html"/>
+    <resource identifier="index" type="webcontent" href="index.html"/>
+  </resources>
+</manifest>

@@ -1,0 +1,847 @@
+WEBVTT FILE
+
+1
+00:06.510 --> 00:09.023
+La Constitución española
+lo dice bien claro.
+
+2
+00:09.107 --> 00:11.335
+La protección de datos tiene como objeto
+
+3
+00:11.433 --> 00:13.433
+garantizar y proteger las libertades
+
+4
+00:13.517 --> 00:15.975
+y los derechos fundamentales
+de las personas.
+
+5
+00:16.059 --> 00:19.062
+En especial, su honor
+e integridad personal y familiar.
+
+6
+00:19.354 --> 00:21.081
+Por eso creamos esta formación,
+
+7
+00:21.165 --> 00:23.420
+para responder según la regulación
+
+8
+00:23.504 --> 00:26.340
+a las dudas más habituales
+sobre protección de datos
+
+9
+00:26.424 --> 00:28.282
+y mostrarte las mejores prácticas
+
+10
+00:28.366 --> 00:31.256
+para evitar posibles errores
+en tu día a día laboral.
+
+11
+00:32.163 --> 00:36.000
+Y como, además de práctica,
+queremos que la formación sea entretenida,
+
+12
+00:36.084 --> 00:39.532
+hemos creado una ruleta
+con varias de las preguntas más comunes
+
+13
+00:39.616 --> 00:41.040
+divididas por categorías.
+
+14
+00:41.417 --> 00:42.974
+A medida que vayan saliendo,
+
+15
+00:43.058 --> 00:46.401
+conoceremos el caso,
+desvelaremos la pregunta correspondiente
+
+16
+00:46.485 --> 00:47.636
+y la responderemos.
+
+17
+00:47.720 --> 00:50.280
+Sencillo, práctico y, sobre todo, útil.
+
+18
+00:50.544 --> 00:53.943
+Nada de liarnos con tecnicismos
+ni explicaciones complicadas,
+
+19
+00:54.027 --> 00:55.160
+que no somos el BOE.
+
+20
+00:55.244 --> 00:58.240
+Así que, que gire la ruleta, y a jugar.
+
+21
+01:02.320 --> 01:04.000
+La primera categoría es...
+
+22
+01:04.885 --> 01:06.038
+Datos personales.
+
+23
+01:06.122 --> 01:07.498
+Perfecto para empezar.
+
+24
+01:07.582 --> 01:11.189
+Vamos a descubrir qué pregunta
+se oculta bajo esta categoría.
+
+25
+01:11.273 --> 01:15.080
+Pero antes, te mostraremos el caso
+para ponerte en antecedentes.
+
+26
+01:18.828 --> 01:21.276
+Julia acaba de entrar
+a trabajar en el banco.
+
+27
+01:21.360 --> 01:22.989
+Y para desempeñar su función
+
+28
+01:23.073 --> 01:25.720
+necesita tratar
+multitud de datos de clientes.
+
+29
+01:26.320 --> 01:28.960
+Entre tantos datos,
+le acaba de surgir una duda.
+
+30
+01:31.540 --> 01:35.047
+¿El nombre de un cliente
+se considera un dato personal?
+
+31
+01:35.968 --> 01:39.365
+Bien. Para empezar,
+te recuerdo que un dato personal
+
+32
+01:39.449 --> 01:42.120
+es cualquier información
+sobre una persona física
+
+33
+01:42.204 --> 01:43.880
+identificada o identificable.
+
+34
+01:43.964 --> 01:47.558
+Es decir, toda persona
+cuya identidad pueda determinarse,
+
+35
+01:47.642 --> 01:51.459
+directa o indirectamente,
+en particular, mediante un identificador.
+
+36
+01:51.543 --> 01:55.480
+Como por ejemplo, entre otros, el DNI,
+el número de teléfono, la voz,
+
+37
+01:55.564 --> 01:57.680
+la imagen, el correo electrónico
+
+38
+01:57.764 --> 02:00.100
+y, por supuesto,
+el nombre y los apellidos.
+
+39
+02:03.629 --> 02:06.529
+Además, se consideran
+categorías especiales de datos,
+
+40
+02:06.613 --> 02:07.789
+datos sensibles,
+
+41
+02:07.873 --> 02:11.652
+aquellos en los que, debido
+a su incidencia especial en la intimidad,
+
+42
+02:11.736 --> 02:14.380
+las libertades
+y los derechos fundamentales,
+
+43
+02:14.665 --> 02:17.913
+es necesario establecer
+un mayor nivel de protección
+
+44
+02:17.997 --> 02:20.209
+que sobre el resto de datos personales.
+
+45
+02:20.293 --> 02:25.040
+Por este motivo, su tratamiento se limita
+a los supuestos que permite la norma.
+
+46
+02:25.450 --> 02:27.440
+Son datos que revelan, por ejemplo,
+
+47
+02:27.524 --> 02:30.560
+el origen étnico o racial,
+las opiniones políticas,
+
+48
+02:30.644 --> 02:34.880
+convicciones religiosas o filosóficas,
+afiliación sindical, datos genéticos,
+
+49
+02:34.964 --> 02:37.557
+los datos biométricos
+dirigidos a identificar
+
+50
+02:37.641 --> 02:39.960
+de manera unívoca a una persona física,
+
+51
+02:40.044 --> 02:42.893
+los datos relativos a la salud
+o a la vida sexual
+
+52
+02:42.977 --> 02:45.327
+o a la orientación sexual de una persona,
+
+53
+02:45.411 --> 02:48.800
+y los datos relativos a condenas
+o infracciones penales.
+
+54
+02:50.631 --> 02:51.720
+Así que sí, Julia.
+
+55
+02:51.804 --> 02:54.481
+El nombre de un cliente
+es un dato personal
+
+56
+02:54.565 --> 02:56.120
+y se debe tratar como tal.
+
+57
+02:56.840 --> 02:59.120
+Y una vez resuelta la primera duda,
+
+58
+02:59.444 --> 03:00.800
+que gire a ruleta.
+
+59
+03:03.930 --> 03:06.320
+La segunda categoría en aparecer es...
+
+60
+03:06.935 --> 03:09.737
+compartir datos personales con terceros.
+
+61
+03:10.004 --> 03:13.600
+Ahora toca conocer el caso
+y descubrir la pregunta.
+
+62
+03:19.602 --> 03:21.648
+Samuel acaba de recibir una llamada
+
+63
+03:21.732 --> 03:24.625
+de la empresa
+con la que prepara una formación.
+
+64
+03:24.709 --> 03:27.039
+El responsable de la empresa
+
+65
+03:27.123 --> 03:29.918
+quiere presentarle
+una nueva herramienta de gestión
+
+66
+03:30.002 --> 03:33.920
+y para preparar la demo le pide
+un listado de empleados con sus datos
+
+67
+03:34.004 --> 03:37.461
+para cargar la herramienta
+y mostrarle su funcionamiento
+
+68
+03:37.545 --> 03:39.009
+y las ventajas que ofrece.
+
+69
+03:39.524 --> 03:41.480
+Samuel duda si puede facilitarla.
+
+70
+03:41.564 --> 03:43.399
+Samuel hace bien en dudar,
+
+71
+03:43.483 --> 03:45.544
+porque siempre debemos tener presente
+
+72
+03:45.628 --> 03:48.080
+nuestro deber
+de diligencia y responsabilidad
+
+73
+03:48.164 --> 03:51.566
+en relación a la protección
+de los datos de carácter personal.
+
+74
+03:51.650 --> 03:54.793
+Por ello, debemos extremar
+las precauciones al enviar
+
+75
+03:54.877 --> 03:56.860
+cualquier información a terceros.
+
+76
+03:56.944 --> 04:01.113
+Lo que solicitan a Samuel
+es proporcionar datos de carácter personal
+
+77
+04:01.197 --> 04:04.847
+relativos a empleados para su tratamiento
+por parte de un tercero
+
+78
+04:04.931 --> 04:08.299
+sin que exista un acuerdo o contrato,
+encargo de tratamiento.
+
+79
+04:08.566 --> 04:11.960
+Por tanto, no podría facilitar
+dicha información al proveedor.
+
+80
+04:12.432 --> 04:15.063
+Y, ya que estamos,
+te refresco las figuras clave
+
+81
+04:15.147 --> 04:17.880
+relativas a la protección
+de los datos personales.
+
+82
+04:18.278 --> 04:22.042
+El responsable del tratamiento
+es la persona física o jurídica
+
+83
+04:22.126 --> 04:24.601
+que decide
+sobre la finalidad del contenido
+
+84
+04:24.685 --> 04:26.633
+y uso del tratamiento de los datos.
+
+85
+04:26.717 --> 04:28.464
+En este caso, el banco.
+
+86
+04:28.830 --> 04:32.990
+Por su parte, el encargado del tratamiento
+es la persona física o jurídica
+
+87
+04:33.074 --> 04:36.976
+que trata los datos personales
+por cuenta del responsable de tratarlos.
+
+88
+04:37.060 --> 04:39.640
+En este caso,
+el proveedor de la formación.
+
+89
+04:40.177 --> 04:44.002
+Los interesados son las personas físicas
+cuyos datos son tratados
+
+90
+04:44.086 --> 04:46.436
+por parte
+de un responsable de tratamiento.
+
+91
+04:46.520 --> 04:49.685
+Por ejemplo: clientes,
+empleados, accionistas...
+
+92
+04:49.959 --> 04:51.653
+En el caso que expone Samuel,
+
+93
+04:51.737 --> 04:54.739
+serían los empleados
+cuyos datos solicita el proveedor.
+
+94
+04:57.133 --> 04:59.780
+Por último, el delegado
+de protección de datos,
+
+95
+04:59.864 --> 05:01.680
+o DPO por sus siglas en inglés,
+
+96
+05:01.764 --> 05:03.244
+que es la figura designada
+
+97
+05:03.328 --> 05:06.080
+para asesorar
+al responsable de tratamiento,
+
+98
+05:06.164 --> 05:08.040
+supervisar que se cumpla la norma
+
+99
+05:08.124 --> 05:12.560
+y coordinar la relación con el supervisor
+en materia de protección de datos.
+
+100
+05:16.322 --> 05:19.160
+Por otro lado, te recuerdo
+que existen unidades
+
+101
+05:19.244 --> 05:22.516
+para los que la normativa
+no exige nombrar un DPO,
+
+102
+05:22.600 --> 05:25.240
+y otras en las que,
+por su tamaño o complejidad,
+
+103
+05:25.324 --> 05:28.262
+se hace necesario que el DPO
+cuente con un apoyo
+
+104
+05:28.346 --> 05:30.040
+para desempeñar sus funciones.
+
+105
+05:30.124 --> 05:34.785
+En estos caso, el grupo ha designado
+un <i>champion</i> de protección de datos,
+
+106
+05:34.898 --> 05:38.578
+que también se encarga de velar
+por el cumplimiento de la normativa
+
+107
+05:38.662 --> 05:42.920
+y de ejecutar determinados procesos
+en materia de protección de datos.
+
+108
+05:43.395 --> 05:46.880
+En caso de duda,
+Samuel podría dirigirse al DPO
+
+109
+05:46.964 --> 05:48.475
+o al <i>champion</i> de su unidad,
+
+110
+05:48.559 --> 05:53.920
+a quien podrá consultar su modo de actuar
+antes de enviar ningún dato personal
+
+111
+05:54.200 --> 05:55.880
+de los empleados a un tercero.
+
+112
+05:56.310 --> 06:00.080
+Vamos de nuevo a la ruleta
+para conocer la siguiente categoría,
+
+113
+06:00.771 --> 06:02.280
+que se detiene en...
+
+114
+06:04.341 --> 06:06.769
+medidas técnicas y organizativas.
+
+115
+06:06.853 --> 06:09.493
+La seguridad de los datos
+de carácter personal.
+
+116
+06:09.577 --> 06:10.579
+Temazo.
+
+117
+06:10.663 --> 06:14.303
+Vamos a descubrir la pregunta
+que se esconde bajo esta categoría.
+
+118
+06:14.387 --> 06:18.480
+Pero antes, como siempre,
+el caso que nos pone en contexto.
+
+119
+06:22.922 --> 06:25.840
+Pablo es un empleado
+del banco que, tras separarse,
+
+120
+06:26.086 --> 06:28.203
+ha comenzado los trámites de divorcio.
+
+121
+06:28.287 --> 06:32.746
+Dado que su exmujer es cliente del banco,
+le ha pedido que consulte en el sistema
+
+122
+06:32.830 --> 06:35.559
+la información actualizada
+de las cuentas de su ex
+
+123
+06:35.643 --> 06:39.400
+con el fin de utilizar
+esa información en su demanda de divorcio.
+
+124
+06:41.385 --> 06:42.443
+¿Puede hacerlo?
+
+125
+06:45.278 --> 06:47.875
+Mucho me temo
+que pisan terreno resbaladizo,
+
+126
+06:47.959 --> 06:49.904
+así que les vamos a echar una mano.
+
+127
+06:49.988 --> 06:53.800
+Para ello, vamos a repasar
+los fundamentos de la protección de datos.
+
+128
+06:53.884 --> 06:56.560
+Licitud, lealtad, transparencia.
+
+129
+06:58.629 --> 07:01.412
+Trata los datos
+de acuerdo a una base legitimadora,
+
+130
+07:01.496 --> 07:04.517
+informa al interesado
+sobre el tratamiento de sus datos
+
+131
+07:04.601 --> 07:06.160
+de forma clara y sencilla,
+
+132
+07:06.244 --> 07:08.244
+y cumple con dicha información.
+
+133
+07:09.485 --> 07:11.000
+Limitación de la finalidad.
+
+134
+07:11.287 --> 07:13.030
+Los datos solo se pueden tratar
+
+135
+07:13.114 --> 07:16.200
+para fines específicos,
+explícitos y legítimos.
+
+136
+07:18.040 --> 07:19.520
+Minimización de los datos.
+
+137
+07:19.875 --> 07:23.120
+Adecuado, pertinente
+y limitado a lo necesario
+
+138
+07:23.204 --> 07:25.871
+en relación con los fines
+para los que se tratan.
+
+139
+07:27.040 --> 07:28.040
+Exactitud.
+
+140
+07:28.388 --> 07:31.160
+Los datos personales deben ser precisos
+
+141
+07:31.244 --> 07:34.200
+y, en caso necesario,
+mantenerse actualizados.
+
+142
+07:35.160 --> 07:37.280
+Limitación del plazo de conservación.
+
+143
+07:37.549 --> 07:40.166
+Solo se conservarán
+durante el período necesario
+
+144
+07:40.250 --> 07:42.373
+para los fines para los que se tratan.
+
+145
+07:43.280 --> 07:45.520
+Integridad y confidencialidad.
+
+146
+07:45.860 --> 07:49.000
+Se debe adoptar medidas
+que permitan garantizar
+
+147
+07:49.084 --> 07:51.840
+la seguridad de los datos,
+incluida la protección,
+
+148
+07:51.924 --> 07:55.093
+contra el tratamiento
+no autorizado o ilícito,
+
+149
+07:55.177 --> 07:58.400
+y contra pérdidas, destrucción
+o daños accidentales.
+
+150
+07:59.240 --> 08:01.400
+Responsabilidad proactiva.
+
+151
+08:01.724 --> 08:05.520
+Poder demostrar en todo momento
+que se cumple con la normativa.
+
+152
+08:07.400 --> 08:11.459
+Para saber si el acceso de Pablo
+a los datos bancarios de su exmujer
+
+153
+08:11.543 --> 08:15.587
+es lícito, solo tenemos que repasar
+las bases legitimadoras
+
+154
+08:15.671 --> 08:17.860
+para el tratamiento de datos personales
+
+155
+08:17.944 --> 08:21.414
+por parte de un responsable
+de tratamiento: entidad.
+
+156
+08:21.498 --> 08:25.480
+Para ello, debería contar con,
+al menos, una de estas bases.
+
+157
+08:26.360 --> 08:29.699
+¿El tratamiento es necesario
+para la ejecución de un contrato
+
+158
+08:29.783 --> 08:31.640
+en el que la interesada es parte?
+
+159
+08:33.149 --> 08:36.560
+¿El tratamiento es necesario
+para cumplir una obligación legal
+
+160
+08:36.644 --> 08:38.947
+aplicable al responsable del tratamiento?
+
+161
+08:41.767 --> 08:44.439
+¿Es necesario
+para proteger los intereses vitales
+
+162
+08:44.523 --> 08:46.770
+del interesado o de otra persona física?
+
+163
+08:50.173 --> 08:53.209
+¿Es necesario
+para satisfacer intereses legítimos
+
+164
+08:53.293 --> 08:56.360
+del responsable del tratamiento
+o de un tercero?
+
+165
+08:59.297 --> 09:03.559
+¿Es necesario para el cumplimiento
+de una misión realizada en interés público
+
+166
+09:03.643 --> 09:07.782
+o en el ejercicio de poderes públicos
+dados al responsable del tratamiento?
+
+167
+09:09.880 --> 09:12.480
+¿El interesado, en este caso,
+la ex de Pablo,
+
+168
+09:12.564 --> 09:15.872
+ha dado su consentimiento
+para el tratamiento de sus datos
+
+169
+09:15.956 --> 09:17.685
+para el fin que Pablo persigue?
+
+170
+09:21.182 --> 09:23.760
+Conclusión: Pablo no debe acceder,
+
+171
+09:23.844 --> 09:26.615
+en ningún caso,
+a los datos bancarios de la ex
+
+172
+09:26.699 --> 09:29.647
+con la finalidad de documentar
+su demanda de divorcio,
+
+173
+09:29.731 --> 09:31.760
+ya que es en interés particular
+
+174
+09:31.844 --> 09:34.240
+y no tiene
+el consentimiento de la titular.
+
+175
+09:34.324 --> 09:36.538
+Su compañero tampoco podría ayudarle
+
+176
+09:36.622 --> 09:39.236
+al no existir una base legitimadora
+
+177
+09:39.320 --> 09:43.440
+que, como responsable de tratamiento,
+justifique el fin que persigue Pablo.
+
+178
+09:43.524 --> 09:48.200
+Bueno, pues antes de hacer girar
+nuestra ruleta de nuevo,
+
+179
+09:48.284 --> 09:49.605
+nos tomamos un respiro.
+
+180
+09:49.988 --> 09:53.080
+Prepárate, porque vienen
+casos muy interesantes
+
+181
+09:53.164 --> 09:54.664
+sobre brechas de seguridad
+
+182
+09:54.748 --> 09:57.359
+y los derechos que tenemos
+sobre nuestros datos
+
+183
+09:57.443 --> 09:59.001
+y que todos debemos conocer.
+
+184
+09:59.085 --> 10:02.000
+Te dejo un avance
+para ponerte los dientes largos.
