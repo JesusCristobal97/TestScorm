@@ -39,7 +39,7 @@
 
     </style>
     <body>
-        <div class="row">
+        <div class="row" id="divRow" style="display: none;position: fixed;margin-top: 35%;">
             <div class="col-4 divFather">
                 <div class="divAnswer" onclick="answerA();">
                     <label>ESPERAR UNA DECLARACIÓN OFICIAL DE PANDEMIA</label>
@@ -56,7 +56,7 @@
                 </div> 
             </div>
         </div>
-        <video style="width: 100%;height: 80vh;" id="video_caso_01" autoplay controls >
+        <video style="width: 100%;height: 80vh;" id="video_caso_01" autoplay >
             <source type="video/mp4" src="../resources/media/videos/demo.mp4" >
             
         </video>
@@ -77,30 +77,45 @@ var timeVideo = 0;
         function onTrackedVideoFrame(currentTime, duration){
             timeVideo = currentTime;
             console.log(currentTime);  
+            if(timeVideo > 10 && timeVideo < 20){
+                $("#divRow").css("display","flex");
+            }
+
             if(timeVideo > 20 && timeVideo < 22){
+                $("#divRow").css("display","flex");
                 $("#video_caso_01").get(0).currentTime -= 10;
                 timeVideo -=10
             }
             if(timeVideo > 37 && timeVideo < 38){
                 $("#video_caso_01").get(0).currentTime =20;
+                $("#divRow").css("display","flex");
+
             }
             if(timeVideo > 47 && timeVideo < 48){
                 $("#video_caso_01").get(0).currentTime =20;
+                $("#divRow").css("display","flex");
+
             }
             
         }
         function answerA(){
             $("#video_caso_01").get(0).currentTime = 23;
+            $("#divRow").css("display","none");
+
             timeVideo = 23;
         }
         
         function answerB(){
             $("#video_caso_01").get(0).currentTime = 38;
+            $("#divRow").css("display","none");
+
             timeVideo = 38;
         }
 
         function answerC(){
             $("#video_caso_01").get(0).currentTime = 48;
+            $("#divRow").css("display","none");
+
             timeVideo = 48;
         }
     </script>

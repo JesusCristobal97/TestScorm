@@ -1,300 +1,184 @@
 <!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./resources/css/style.css" />
-    <script src="./resources/script/SCORM_API_wrapper.js"></script>
-    <script src="./resources/script/script.js"></script>
-    <title>Santander One Demo</title>
-</head>
-
-<body>
-
-    <div id="container">
-
-        <div id="test_final" class="slide">
-
-            <div id="header">
-
-                <img src="Triangle.gif" id="flecha">
-
-                <h1>TEST FINAL</h1>
-
-                <img src="Santander_One_2x.png" id="logo" align="right">
-
-            </div>
-
-            <div id="main">
-
-                <div id="title">
-                    <p>¡Bienvenido al <span style="color:#D73535"> TEST FINAL</span> de este módulo formativo!</p>
-                </div>
-
-                <div class="text">
-                    <p>A continuación deberás responder a <span style="color:#D73535"> 5 preguntas</span> aleatorias en las que deberás elegir una de las opciones que te presentan.</p>
-                </div>
-
-                <div class="text">
-                    <p>Deberás acertar un <span style="color:#D73535"> mínimo de 3 preguntas</span> para superar el Test y dar por finalizado este módulo formativo. Si no lo consigues, <span style="color:#D73535"> podrás repetir el Test</span> tantas veces como sea necesario hasta que lo superes.</p>
-                </div>
-
-                <div id="siguiente">
-
-                    <button id="comenzar" onclick="nextSlide()">Comenzar ></button>
-
-                </div>
-
-            </div>
-        </div>
-
-        <div id="pregunta1" class="slide">
-            <div id="header">
-
-                <img src="Triangle.gif" id="flecha">
-
-                <h1>PREGUNTA 1/5</h1>
-
-                <img src="Santander_One_2x.png" id="logo" align="right">
-
-            </div>
-            <p id="separator">_______________________________________________</p>
-
-            <h4>Dentro del Plan Santander One Viajes, ¿se incluye algún seguro?</h4>
-
-            <form>
-                <div class="option-container">
-                    <input type="radio" id="option1A" name="p1" value="A">
-                    <div class="letter">A</div>
-                    <label class="option-text" for="option1A">No, el Plan Santander One Viajes no incluye coberturas de seguros</label>
-                </div>
-
-                <div class="option-container">
-                    <input type="radio" id="option1B" name="p1" value="B">
-                    <div class="letter">B</div>
-                    <label class="option-text" for="option1B">Solamente incluye el seguro de compra internacional</label>
-                </div>
-
-                <div class="option-container">
-                    <input type="radio" id="option1C" name="p1" value="C">
-                    <div class="letter">C</div>
-                    <label class="option-text" for="option1C">Incluye seguro de asistencia en viajes, accidentes y compra protegida internacional Premium</label>
-                </div>
-                <div id="siguiente">
-
-                    <button type="button" id="siguiente" onclick="checkAnswer(1,'C')">Siguiente ></button>
-
-                </div>
-
-            </form>
-        </div>
-
-        <div id="pregunta2" class="slide">
-            <div id="header">
-
-                <img src="Triangle.gif" id="flecha">
-
-                <h1>PREGUNTA 2/5</h1>
-
-                <img src="Santander_One_2x.png" id="logo" align="right">
-
-            </div>
-            <p id="separator">_______________________________________________</p>
-
-            <h4>¿Qué servicio no está asociado al Plan Santander One Viajes?</h4>
-
-            <form>
-                <div class="option-container">
-                    <input type="radio" id="option2A" name="p2" value="A">
-                    <div class="letter">A</div>
-                    <label class="option-text" for="option2A">Transferencias internacionales zona no SEPA</label>
-                </div>
-
-                <div class="option-container">
-                    <input type="radio" id="option2B" name="p2" value="B">
-                    <div class="letter">B</div>
-                    <label class="option-text" for="option2B">Compras en el extranjero en cualquier moneda</label>
-                </div>
-
-                <div class="option-container">
-                    <input type="radio" id="option2C" name="p2" value="C">
-                    <div class="letter">C</div>
-                    <label class="option-text" for="option2C">Compra de divisa</label>
-                </div>
-                <div id="siguiente">
-
-                    <button type="button" id="siguiente" onclick="checkAnswer(2,'A')">Siguiente ></button>
-
-                </div>
-
-            </form>
-        </div>
-
-        <div id="pregunta3" class="slide">
-            <div id="header">
-
-                <img src="Triangle.gif" id="flecha">
-
-                <h1>PREGUNTA 3/5</h1>
-
-                <img src="Santander_One_2x.png" id="logo" align="right">
-
-            </div>
-            <p id="separator">_______________________________________________</p>
-
-            <h4>¿Qué niveles existen dentro del Plan Santander Iberia Plus?</h4>
-
-            <form>
-                <div class="option-container">
-                    <input type="radio" id="option3A" name="p3" value="A">
-                    <div class="letter">A</div>
-                    <label class="option-text" for="option3A">Solo existe un nivel: el nivel Básico</label>
-                </div>
-
-                <div class="option-container">
-                    <input type="radio" id="option3B" name="p3" value="B">
-                    <div class="letter">B</div>
-                    <label class="option-text" for="option3B">El plan está dividido en 2 niveles: Básico y Élitel</label>
-                </div>
-
-                <div class="option-container">
-                    <input type="radio" id="option3C" name="p3" value="C">
-                    <div class="letter">C</div>
-                    <label class="option-text" for="option3C">El Plan está dividido en 3 niveles: Básico, Premium y Élite</label>
-                </div>
-                <div id="siguiente">
-
-                    <button type="button" id="siguiente" onclick="checkAnswer(3,'C')">Siguiente ></button>
-
-                </div>
-
-            </form>
-        </div>
-
-        <div id="pregunta4" class="slide">
-            <div id="header">
-
-                <img src="Triangle.gif" id="flecha">
-
-                <h1>PREGUNTA 4/5</h1>
-
-                <img src="Santander_One_2x.png" id="logo" align="right">
-
-            </div>
-            <p id="separator">_______________________________________________</p>
-
-            <h4>Cuando un cliente contrata algún Plan Santander One, ¿en qué momento puede empezar a disfrutarlo?</h4>
-
-            <form>
-                <div class="option-container">
-                    <input type="radio" id="option4A" name="p4" value="A">
-                    <div class="letter">A</div>
-                    <label class="option-text" for="option4A">El primer día del mes siguiente a la contratación</label>
-                </div>
-
-                <div class="option-container">
-                    <input type="radio" id="option4B" name="p4" value="B">
-                    <div class="letter">B</div>
-                    <label class="option-text" for="option4B">El disfrute de los Planes es automático al mismo momento de la contratación</label>
-                </div>
-
-                <div class="option-container">
-                    <input type="radio" id="option4C" name="p4" value="C">
-                    <div class="letter">C</div>
-                    <label class="option-text" for="option4C">Un mes después de la contratación</label>
-                </div>
-                <div id="siguiente">
-
-                    <button type="button" id="siguiente" onclick="checkAnswer(4,'B')">Siguiente ></button>
-
-                </div>
-
-            </form>
-        </div>
-
-        <div id="pregunta5" class="slide">
-            <div id="header">
-
-                <img src="Triangle.gif" id="flecha">
-
-                <h1>PREGUNTA 5/5</h1>
-
-                <img src="Santander_One_2x.png" id="logo" align="right">
-
-            </div>
-            <p id="separator">_______________________________________________</p>
-
-            <h4>¿Se pueden contratar varios Planes Santander One de manera simultánea?</h4>
-
-            <form>
-                <div class="option-container">
-                    <input type="radio" id="option5A" name="p5" value="A">
-                    <div class="letter">A</div>
-                    <label class="option-text" for="option5A">Depende del tipo de cliente</label>
-                </div>
-
-                <div class="option-container">
-                    <input type="radio" id="option5B" name="p5" value="B">
-                    <div class="letter">B</div>
-                    <label class="option-text" for="option5B">Si. Todos los clientes pueden personalizar su propuesta de valor, contratando los Planes de servicios que mejor se adapten a ellos</label>
-                </div>
-
-                <div class="option-container">
-                    <input type="radio" id="option5C" name="p5" value="C">
-                    <div class="letter">C</div>
-                    <label class="option-text" for="option5C">No. Los clientes tienen que elegir el Plan que mejor se adapta</label>
-                </div>
-                <div id="siguiente">
-
-                    <button type="button" id="siguiente" onclick="checkAnswer(5,'B'); finalizarSCORM()">Siguiente ></button>
-
-                </div>
-
-            </form>
-        </div>
-
-        <div id="resultado" class="slide">
-
-            <div id="header">
-
-                <img src="Triangle.gif" id="flecha">
-
-                <h1>RESULTADO</h1>
-
-                <img src="Santander_One_2x.png" id="logo" align="right">
-
-            </div>
-            <p id="separator">_______________________________________________</p>
-
-            <div id="aciertos" align="center">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="stylesheet" href="./resources/css/boostrap.min.css" />
+        <link rel="stylesheet" href="./resources/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="./resources/css/main.css" />
+        <script src="./resources/script/SCORM_API_wrapper.js" type="text/javascript"></script>
+        <script src="./resources/script/jquery.min.js" ></script>
+    </head> 
+    <style>
+        .caso {
+  display: inline-block;
+	/* width: 100vw;
+	max-width: 241px; */
+	width: 100%;
+	flex: 1 1 0;
+	margin: 0 20px;
+  height: 100vh;
+  max-height: 326px;
+  transition: all 0.5s;
+	position: relative;
+	border-radius: 6px;
+  overflow: hidden;
+  /* border: 3px solid rgba(0,0,0,0); */
+
+	box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.12);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+        .caso video,
+        .caso .img_bg {
+            position: absolute;
+            right: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+        .caso label{
+            font-size: 50px;
+            color: red;
+            line-height: 70px;
+            position: absolute;
+            z-index: 10;
+        }
+        .buttonPlay{
+            margin: 0 auto;
+            /* background: #EC0000; */
+            color: #fff;
+            /* padding: 5px 38px 30px 38px; */
+            padding-bottom: 32px;
+            font-family: 'client medium';
+            font-size: 24px;
+            line-height: 34px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+        .button_case_container{
+            position: absolute;
+            top: 0;
+            left: 0; 
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+        }
+        .imagen:hover{
+  --escala: 1.2;
+  cursor:pointer;
+}
+
+    </style>
+    <body>
+        <div class="container">
             
-            <h1 id="scoreDisplay">Aciertos: <span id="scoreValue">0</span>/5</h1>
-
-            <br>
-
-            <div id="win">
-                <p color="darkgreen">¡Enhorabuena! ¡Has superado el Test Final!</p>
-                <br>
-                <img id="cara_feliz" src="cara_feliz.png">
+            <div class="row">
+                <div class="col-12" style="text-align: center;">
+                    <img  src="./resources/media/images/logo_big.png" style="height: 100%;width: 50%;" />
+                </div>
             </div>
-
-            <div id="lose">
-                <p color="darkred">No has superado el Test...</p>
-                <br>
-                <img id="cara_triste" src="cara_triste.png">
+            <div class="row"> 
+                <div class="col-12"> 
+                    <div class="title_h1"><span class="triangle"></span> <span>Protección de datos</span></div>
+                </div>
             </div>
-
-            <div>
-                <p color="black">Ya puedes cerrar el curso</p>
+            <div class="flagsDiv">
+                <div class="row"> 
+                    <div class="col-12"> 
+                        <div class="" style="text-align: center;"><span>Antes de empezar, por favor, selecciona tu idioma:</span></div>
+                    </div>
+                </div>
+                <div class="row" style="padding: 10%;overflow: hidden;">
+                    <div class="col-4" onclick="viewVideos();">
+                        <img class="imagen"  src="./resources/media/images/flags/es.svg" style="height: 100%;width: 70%;  transform: scale(var(--escala, 1));
+                        transition: transform 0.25s;" />
+                    </div>
+                    <div class="col-4" onclick="viewVideos();">
+                        <img class="imagen" src="./resources/media/images/flags/en.svg" style="height: 100%;width: 70%;  transform: scale(var(--escala, 1));
+                        transition: transform 0.25s;" />
+                    </div>
+                    <div class="col-4" onclick="viewVideos();">
+                        <img class="imagen" src="./resources/media/images/flags/pt-br.svg" style="height: 100%;width: 70%;  transform: scale(var(--escala, 1));
+                        transition: transform 0.25s;" />
+                    </div>
+                </div>
             </div>
+            <div class="videosDiv" style="background: #ECE9E9;
+            padding: 15px;
+            padding-top: 20px;
+            padding-bottom: 20px;">
+                <div class="row"> 
+                    <div class="caso cas1" onclick="goVideo();">
+                        <img class="img_bg" src="./resources/media/images/img_caso_01.jpg">
+                        <video id="video_caso_01" src="./resources/media/videos/img_caso_01.mp4" muted="true" loop="true"></video> 
+                        <label>Parte 1</label>
+                        <div class="play">
+                            <span class="button_case_container"> 
+                                <span class="buttonPlay">
+                                    <i class="fa fa-play-circle fa-2x"></i>
+                                    <br>
+                                    <span>Ver video</span>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="caso cas2">
+                        <img class="img_bg" src="./resources/media/images/img_caso_02.jpg">
+                        <video id="video_caso_02" src="./resources/media/videos/img_caso_02.mp4" muted="true" loop="true"></video> 
+                        <label>Parte 2</label>
+                        <div class="play">
+                            <span class="button_case_container"> 
+                                <span class="buttonPlay">
+                                    <i class="fa fa-play-circle fa-2x"></i>
+                                    <br>
+                                    <span>Ver video</span>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
 
             </div>
-
         </div>
-
-    </div>
-
-</body>
-
+    </body>
 </html>
+<script>
+
+    window.onload = new function(){
+      $(".videosDiv").css("display","none");
+    }
+
+    function viewVideos(){
+      $(".flagsDiv").hide(300); //300ms de fade-out
+      $(".videosDiv").show(1000); // 500ms de fade-in
+    }
+    //videos automaticos
+
+    $('.cas1').mouseover(function(){
+        $("#video_caso_01").get(0).play();
+    }).mouseout(function(){
+        $("#video_caso_01").get(0).load(); 
+    })
+
+    $('.cas2').mouseover(function(){
+        $("#video_caso_02").get(0).play();
+    }).mouseout(function(){
+        $("#video_caso_02").get(0).load(); 
+    })
+
+    function goVideo(){
+        window.location.href = "../pages/video.html";
+    }
+</script>
