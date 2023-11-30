@@ -13,15 +13,11 @@
       </item>
       <item identifier="item2" identifierref="video">
         <title>Vídeo</title>
-      </item>
-      <item identifier="item3" identifierref="index">
-        <title>Índice</title>
-      </item>
+      </item> 
     </organization>
   </organizations>
   <resources>
-    <resource identifier="home" type="webcontent" href="./pages/home.html"/>
-    <resource identifier="video" type="webcontent" href="./pages/video.html"/>
-    <resource identifier="index" type="webcontent" href="index.html"/>
+    <resource identifier="home" type="webcontent" href="index.html"/>
+    <resource identifier="video" type="webcontent" href="./pages/video.html"/> 
   </resources>
 </manifest>
