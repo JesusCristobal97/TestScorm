@@ -39,28 +39,30 @@
 
     </style>
     <body id="bodyInteractivo">
+        <div class="videoContainer" style="position: relative;"> 
+            <video id="video_caso_01_practice" autoplay >
+                <source type="video/mp4" src="../resources/media/videos/demo.mp4" >
+                
+            </video>
         <div class="row" id="divRow">
-            <div class="col-4 divFather">
-                <div class="divAnswer" onclick="answerA();">
+            <div class="col-4 divFather"  onclick="answerA();">
+                <div class="divAnswer">
                     <label>ESPERAR UNA DECLARACIÓN OFICIAL DE PANDEMIA</label>
                 </div> 
             </div>
-            <div class="col-4 divFather">
-                <div class="divAnswer" onclick="answerB();">
+            <div class="col-4 divFather" onclick="answerB();">
+                <div class="divAnswer" >
                     <label> INVESTIGAR POR MI CUENTA Y MANTENER EL ASUNTO COMO EVENTO LOCAL</label>
                 </div> 
             </div>
-            <div class="col-4 divFather">
-                <div class="divAnswer" onclick="answerC();">
+            <div class="col-4 divFather" onclick="answerC();">
+                <div class="divAnswer" >
                     <label>PROPONER CONVOCATORIA de los órganos de gobierno (o de un órgano de gobierno de gestión de crisis) PARA ANALIZAR LA SITUACIÓN</label>
                 </div> 
             </div>
         </div>
-        <video id="video_caso_01_practice" autoplay >
-            <source type="video/mp4" src="../resources/media/videos/demo.mp4" >
-            
-        </video>
 
+    </div>
     </body>
 
     <script> 
