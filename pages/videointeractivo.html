@@ -38,8 +38,8 @@
         }
 
     </style>
-    <body>
-        <div class="row" id="divRow" style="display: none;position: fixed;margin-top: 35%;">
+    <body id="bodyInteractivo">
+        <div class="row" id="divRow">
             <div class="col-4 divFather">
                 <div class="divAnswer" onclick="answerA();">
                     <label>ESPERAR UNA DECLARACIÓN OFICIAL DE PANDEMIA</label>
@@ -56,7 +56,7 @@
                 </div> 
             </div>
         </div>
-        <video style="width: 100%;height: 80vh;" id="video_caso_01" autoplay >
+        <video style="width: 100%;height: 80vh;" id="video_caso_01_practice" autoplay >
             <source type="video/mp4" src="../resources/media/videos/demo.mp4" >
             
         </video>
@@ -67,7 +67,7 @@
 
 var timeVideo = 0;
         $(document).ready(function(){
-        $("#video_caso_01").on(
+        $("#video_caso_01_practice").on(
             "timeupdate", 
             function(event){
                 onTrackedVideoFrame(this.currentTime, this.duration);
@@ -83,37 +83,37 @@ var timeVideo = 0;
 
             if(timeVideo > 20 && timeVideo < 22){
                 $("#divRow").css("display","flex");
-                $("#video_caso_01").get(0).currentTime -= 10;
+                $("#video_caso_01_practice").get(0).currentTime -= 10;
                 timeVideo -=10
             }
             if(timeVideo > 37 && timeVideo < 38){
-                $("#video_caso_01").get(0).currentTime =20;
+                $("#video_caso_01_practice").get(0).currentTime =20;
                 $("#divRow").css("display","flex");
 
             }
             if(timeVideo > 47 && timeVideo < 48){
-                $("#video_caso_01").get(0).currentTime =20;
+                $("#video_caso_01_practice").get(0).currentTime =20;
                 $("#divRow").css("display","flex");
 
             }
             
         }
         function answerA(){
-            $("#video_caso_01").get(0).currentTime = 23;
+            $("#video_caso_01_practice").get(0).currentTime = 23;
             $("#divRow").css("display","none");
 
             timeVideo = 23;
         }
         
         function answerB(){
-            $("#video_caso_01").get(0).currentTime = 38;
+            $("#video_caso_01_practice").get(0).currentTime = 38;
             $("#divRow").css("display","none");
 
             timeVideo = 38;
         }
 
         function answerC(){
-            $("#video_caso_01").get(0).currentTime = 48;
+            $("#video_caso_01_practice").get(0).currentTime = 48;
             $("#divRow").css("display","none");
 
             timeVideo = 48;

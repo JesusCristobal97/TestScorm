@@ -114,10 +114,7 @@
                     </div>
                 </div>
             </div>
-            <div class="videosDiv" style="background: #ECE9E9;
-            padding: 15px;
-            padding-top: 20px;
-            padding-bottom: 20px;">
+            <div class="videosDiv">
                 <div class="row"> 
                     <div class="caso cas1" onclick="goVideo();">
                         <img class="img_bg" src="./resources/media/images/img_caso_01.jpg">
@@ -157,6 +154,11 @@
 <script>
 
     window.onload = new function(){
+        var orientacionPantalla = window.screen.orientation.type;
+        
+        if( orientacionPantalla != "landscape-primary"){
+            alert("Es necesario girar la pantalla");
+        } 
       $(".videosDiv").css("display","none");
     }
 
