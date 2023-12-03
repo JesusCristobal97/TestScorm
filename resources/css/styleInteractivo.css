@@ -21,8 +21,13 @@
     #divRow{
       margin-top: 22%;
     }
+    .divFather{
+        width: 100%;
+    }
     .divAnswer{
+      box-sizing: content-box;
       font-size: 12px;
-      width: 80%;
+      width: 70%;
+      height: 120px;
     }
   }
