@@ -1,0 +1,28 @@
+#divRow{
+    display: none;position: fixed;margin-top: 35%;
+  }
+
+  #video_caso_01_practice{
+    width: 100%;height: 80vh;
+  }
+
+
+  @media (orientation: landscape) and (max-width: 950px) {
+
+    #bodyInteractivo{
+      background-color: #000000;
+    }
+    .caso{
+      height: 180px;
+    }
+    #video_caso_01{
+      height: 85vh;
+    }
+    #divRow{
+      margin-top: 22%;
+    }
+    .divAnswer{
+      font-size: 12px;
+      width: 80%;
+    }
+  }
