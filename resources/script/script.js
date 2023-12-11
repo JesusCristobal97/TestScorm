@@ -54,6 +54,9 @@ function showSlide(index) {
         currentSlide = slides.length - 1;
     } else {
         currentSlide = index;
+        if(currentSlide == 6){
+            window.localStorage.removeItem("flag");
+        }
     }
 
     slides.forEach((slide, i) => {

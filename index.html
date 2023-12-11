@@ -89,16 +89,25 @@
 
     window.onload = new function(){
         var orientacionPantalla = window.screen.orientation.type;
+        $(".videosDiv").css("display","none");
         
         if( orientacionPantalla != "landscape-primary"){
             alert("Es necesario girar la pantalla");
-        } 
-      $(".videosDiv").css("display","none");
+        } else{
+            var flag = window.localStorage.getItem("flag");
+            if(flag){
+                $(".flagsDiv").hide(300); //300ms de fade-out
+                $(".videosDiv").show(1000); // 500ms de fade-in
+            } 
+        }
     }
 
     function viewVideos(){
-      $(".flagsDiv").hide(300); //300ms de fade-out
-      $(".videosDiv").show(1000); // 500ms de fade-in
+ 
+        window.localStorage.setItem("flag",true);
+        $(".flagsDiv").hide(300); //300ms de fade-out
+        $(".videosDiv").show(1000); // 500ms de fade-in  
+
     }
     //videos automaticos
 
