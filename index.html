@@ -7,80 +7,108 @@
         <link rel="stylesheet" href="./resources/css/boostrap.min.css" />
         <link rel="stylesheet" href="./resources/css/font-awesome.min.css" /> 
         <link rel="stylesheet" href="./resources/css/styleMain.css" />
+        <link rel="stylesheet" href="./resources/css/styleInteractivo.css" />
         <script src="./resources/script/SCORM_API_wrapper.js" type="text/javascript"></script>
         <script src="./resources/script/jquery.min.js" ></script>
     </head>  
     <body>
-        <div id="rotate-device">
-            Por favor, gira tu dispositivo para una mejor experiencia.
-          </div>
-
-        <div class="container">
-            
-            <div class="row">
-                <div class="col-12" style="text-align: center;">
-                    <img  src="./resources/media/images/logo_big.png" style="height: 100%;width: 50%;" />
+        <div id="divBodyMain">
+            <div id="rotate-device">
+                Por favor, gira tu dispositivo para una mejor experiencia.
+              </div>
+    
+            <div class="container">
+                
+                <div class="row">
+                    <div class="col-12" style="text-align: center;">
+                        <img  src="./resources/media/images/logo_big.png" style="height: 100%;width: 50%;" />
+                    </div>
                 </div>
-            </div>
-            <div class="row"> 
-                <div class="col-12"> 
-                    <div class="title_h1"><span class="triangle"></span> <span>Protección de datos</span></div>
-                </div>
-            </div>
-            <div class="flagsDiv">
                 <div class="row"> 
                     <div class="col-12"> 
-                        <div class="" style="text-align: center;"><span>Antes de empezar, por favor, selecciona tu idioma:</span></div>
+                        <div class="title_h1"><span class="triangle"></span> <span>Protección de datos</span></div>
                     </div>
                 </div>
-                <div class="row" style="padding: 10%;overflow: hidden;">
-                    <div class="col-4" onclick="viewVideos();">
-                        <img class="imagen"  src="./resources/media/images/flags/es.svg" style="height: 100%;width: 70%;  transform: scale(var(--escala, 1));
-                        transition: transform 0.25s;" />
+                <div class="flagsDiv">
+                    <div class="row"> 
+                        <div class="col-12"> 
+                            <div class="" style="text-align: center;"><span>Antes de empezar, por favor, selecciona tu idioma:</span></div>
+                        </div>
                     </div>
-                    <div class="col-4" onclick="viewVideos();">
-                        <img class="imagen" src="./resources/media/images/flags/en.svg" style="height: 100%;width: 70%;  transform: scale(var(--escala, 1));
-                        transition: transform 0.25s;" />
+                    <div class="row" style="padding: 10%;overflow: hidden;">
+                        <div class="col-4" onclick="viewVideos();">
+                            <img class="imagen"  src="./resources/media/images/flags/es.svg" style="height: 100%;width: 70%;  transform: scale(var(--escala, 1));
+                            transition: transform 0.25s;" />
+                        </div>
+                        <div class="col-4" onclick="viewVideos();">
+                            <img class="imagen" src="./resources/media/images/flags/en.svg" style="height: 100%;width: 70%;  transform: scale(var(--escala, 1));
+                            transition: transform 0.25s;" />
+                        </div>
+                        <div class="col-4" onclick="viewVideos();">
+                            <img class="imagen" src="./resources/media/images/flags/pt-br.svg" style="height: 100%;width: 70%;  transform: scale(var(--escala, 1));
+                            transition: transform 0.25s;" />
+                        </div>
                     </div>
-                    <div class="col-4" onclick="viewVideos();">
-                        <img class="imagen" src="./resources/media/images/flags/pt-br.svg" style="height: 100%;width: 70%;  transform: scale(var(--escala, 1));
-                        transition: transform 0.25s;" />
+                </div>
+                <div class="videosDiv">
+                    <div class="row"> 
+                        <div class="caso cas1" onclick="goVideo();">
+                            <img class="img_bg" src="./resources/media/images/img_caso_01.jpg">
+                            <video id="video_caso_01" src="./resources/media/videos/img_caso_01.mp4" muted="true" loop="true"></video> 
+                            <label>Parte 1</label>
+                            <div class="play">
+                                <span class="button_case_container"> 
+                                    <span class="buttonPlay">
+                                        <i class="fa fa-play-circle fa-2x"></i>
+                                        <br>
+                                        <span>Ver video</span>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="caso cas2" onclick="goVideo2();">
+                            <img class="img_bg" src="./resources/media/images/img_caso_02.jpg">
+                            <video id="video_caso_02" src="./resources/media/videos/img_caso_02.mp4" muted="true" loop="true"></video> 
+                            <label>Parte 2</label>
+                            <div class="play">
+                                <span class="button_case_container"> 
+                                    <span class="buttonPlay">
+                                        <i class="fa fa-play-circle fa-2x"></i>
+                                        <br>
+                                        <span>Ver video</span>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+    
                     </div>
+    
                 </div>
             </div>
-            <div class="videosDiv">
-                <div class="row"> 
-                    <div class="caso cas1" onclick="goVideo();">
-                        <img class="img_bg" src="./resources/media/images/img_caso_01.jpg">
-                        <video id="video_caso_01" src="./resources/media/videos/img_caso_01.mp4" muted="true" loop="true"></video> 
-                        <label>Parte 1</label>
-                        <div class="play">
-                            <span class="button_case_container"> 
-                                <span class="buttonPlay">
-                                    <i class="fa fa-play-circle fa-2x"></i>
-                                    <br>
-                                    <span>Ver video</span>
-                                </span>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="caso cas2" onclick="goVideo2();">
-                        <img class="img_bg" src="./resources/media/images/img_caso_02.jpg">
-                        <video id="video_caso_02" src="./resources/media/videos/img_caso_02.mp4" muted="true" loop="true"></video> 
-                        <label>Parte 2</label>
-                        <div class="play">
-                            <span class="button_case_container"> 
-                                <span class="buttonPlay">
-                                    <i class="fa fa-play-circle fa-2x"></i>
-                                    <br>
-                                    <span>Ver video</span>
-                                </span>
-                            </span>
-                        </div>
-                    </div>
-
+        </div>
+        <div id="bodyInteractivo">
+            <div class="videoContainer" style="position: relative;"> 
+                <video id="video_caso_01_practice" autoplay="true" >
+                    <source type="video/mp4" src="../resources/media/videos/demo.mp4" >
+                    
+                </video>
+            </div>
+            <div class="row" id="divRow">
+                <div class="col-4 divFather"  onclick="answerA();">
+                    <div class="divAnswer">
+                        <label>ESPERAR UNA DECLARACIÓN OFICIAL DE PANDEMIA</label>
+                    </div> 
                 </div>
-
+                <div class="col-4 divFather" onclick="answerB();">
+                    <div class="divAnswer" >
+                        <label> INVESTIGAR POR MI CUENTA Y MANTENER EL ASUNTO COMO EVENTO LOCAL</label>
+                    </div> 
+                </div>
+                <div class="col-4 divFather" onclick="answerC();">
+                    <div class="divAnswer" >
+                        <label>PROPONER CONVOCATORIA de los órganos de gobierno (o de un órgano de gobierno de gestión de crisis) PARA ANALIZAR LA SITUACIÓN</label>
+                    </div> 
+                </div>
             </div>
         </div>
     </body>
