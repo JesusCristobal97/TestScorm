@@ -117,7 +117,7 @@
         </div>
         <div id="bodyInteractivo" style="display: none;">
             <div class="videoContainer" style="position: relative;"> 
-                <video id="video_caso_01_practice" autoplay="true" >
+                <video id="video_caso_01_practice">
                     <source type="video/mp4" src="../resources/media/videos/demo.mp4" >
                     
                 </video>
@@ -187,6 +187,7 @@
     function goVideo2(){
         $("#divBodyMain").css("display","none");
         $("#bodyInteractivo").css("display","block");
+        $("#video_caso_01_practice").get(0).play();
         //window.location.href = "./pages/videointeractivo.html";
     }
 
