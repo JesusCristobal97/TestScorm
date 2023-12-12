@@ -12,6 +12,35 @@
         <script src="./resources/script/jquery.min.js" ></script>
     </head>  
     <body>
+
+        <style>
+        #bodyInteractivo{
+            background-color: black;
+        }
+        .divAnswer {
+            text-align: center;
+            color: red;
+            background-color: white;
+            height: 150px;
+            align-items: center;
+            display: flex; 
+            justify-content: center;
+            border: 2px solid red;
+            border-radius: 20px;
+            width: 60%;
+            padding: 15px;
+        }
+        .divAnswer:hover{
+            background-color: red;
+            color: white;
+            cursor: pointer;
+        }
+        .divFather{
+            display: flex;
+            justify-content: center;
+        }
+
+        </style>
         <div id="divBodyMain">
             <div id="rotate-device">
                 Por favor, gira tu dispositivo para una mejor experiencia.
@@ -86,7 +115,7 @@
                 </div>
             </div>
         </div>
-        <div id="bodyInteractivo">
+        <div id="bodyInteractivo" style="display: none;">
             <div class="videoContainer" style="position: relative;"> 
                 <video id="video_caso_01_practice" autoplay="true" >
                     <source type="video/mp4" src="../resources/media/videos/demo.mp4" >
@@ -156,6 +185,71 @@
     }
 
     function goVideo2(){
-        window.location.href = "./pages/videointeractivo.html";
+        $("#divBodyMain").css("display","none");
+        $("#bodyInteractivo").css("display","block");
+        //window.location.href = "./pages/videointeractivo.html";
     }
+
+
+    /* video interactivo */
+
+    var timeVideo = 0;
+        $(document).ready(function(){
+        $("#video_caso_01_practice").on(
+            "timeupdate", 
+            function(event){
+                onTrackedVideoFrame(this.currentTime, this.duration);
+            });
+        });
+
+        function onTrackedVideoFrame(currentTime, duration){
+            timeVideo = currentTime;
+            console.log(currentTime);  
+            if(timeVideo > 10 && timeVideo < 20){
+                $("#divRow").css("display","flex");
+            }
+
+            if(timeVideo > 20 && timeVideo < 22){
+                $("#divRow").css("display","flex");
+                $("#video_caso_01_practice").get(0).currentTime -= 10;
+                timeVideo -=10
+            }
+            if(timeVideo > 37 && timeVideo < 38){
+                $("#video_caso_01_practice").get(0).currentTime =20;
+                $("#divRow").css("display","flex");
+
+            }
+            if(timeVideo > 47 && timeVideo < 48){
+                $("#video_caso_01_practice").get(0).currentTime =20;
+                $("#divRow").css("display","flex");
+
+            }
+            
+        }
+        function answerA(){
+            $("#video_caso_01_practice").get(0).currentTime = 23;
+            $("#divRow").css("display","none");
+
+            timeVideo = 23;
+        }
+        
+        function answerB(){
+            $("#video_caso_01_practice").get(0).currentTime = 38;
+            $("#divRow").css("display","none");
+
+            timeVideo = 38;
+        }
+
+        function answerC(){
+            $("#video_caso_01_practice").get(0).currentTime = 48;
+            $("#divRow").css("display","none");
+
+            timeVideo = 48;
+        }
+
+        $("#video_caso_01_practice").on('ended', function(){ 
+        window.location.href = "./pages/question.html"
+         });
+
+
 </script>
