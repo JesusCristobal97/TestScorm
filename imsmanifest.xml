@@ -10,14 +10,12 @@
       <title>Encuesta</title>
       <item identifier="item1" identifierref="home">
         <title>Página de Inicio</title>
-      </item>
-      <item identifier="item2" identifierref="video">
-        <title>Vídeo</title>
       </item> 
     </organization>
   </organizations>
   <resources>
     <resource identifier="home" type="webcontent" href="index.html"/>
+    <resource identifier="question" type="webcontent" href="./pages/question.html"/> 
     <resource identifier="video" type="webcontent" href="./pages/video.html"/> 
   </resources>
 </manifest>
